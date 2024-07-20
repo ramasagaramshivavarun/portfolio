@@ -859,7 +859,27 @@
   /**
    * responsive larger than 450px screen
    */
+
+ @media (min-width: 150px) {
   
+    .avatar-box { border-radius: 100%; }
+  
+    .avatar-box img { border-radius: 100%;  }
+  
+  
+  }
+
+
+  @media (min-width: 450px) {
+  
+    .avatar-box { border-radius: 100%; }
+  
+    .avatar-box img { border-radius: 100%;  }
+  
+  
+  }
+
+
   @media (min-width: 450px) {
   
     /**
